@@ -1,0 +1,250 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Truong Quang Bao Loc
+    ID: s3965528
+    Acknowledgement: Acknowledge the resources that you use here.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Viol</title>
+     <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;500;600&display=swap" rel="stylesheet">
+     <link rel="icon" type="image/x-icon" href="/assest/image/homepage/Viol-logo.png">
+     <link rel="stylesheet" href="/assest/style/trust.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+ </head>
+ <body>
+     <header>
+         <div class="homepage-container">
+             <div class="homepage-content">
+                 <div class="navigation">
+                     <div class="left">
+                         <img src="/assest/image/homepage/Viol.png" alt="Viol logo">
+                     </div>
+                     <div class="right">
+                         <input type="checkbox" id="on-off" class="on-off">
+                         <label for="on-off">
+                             <div class="hamburger-bar">
+                                 <i class="fa-solid fa-bars"></i>
+                             </div> 
+                         </label> 
+                         <nav class="navbar">
+                             <ul>
+                                 <li><a href="#product_information">BOOK</a></li>
+                                 <li><a href="#rating">REVIEW</a></li>
+                                 <li><a href="#comment-container">COMMENT</a></li>
+                                 <li><a href="#footer">FOOTER</a></li>
+                             </ul>
+                         </nav> 
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="breadcrumb">
+             <a href="/index.html"><div class="breadcrumb-content">HOME</div></a>
+             <div class="breadcrumb-content">></div>
+             <a href="/assest/pages/subcategory/fiction.html"><div class="breadcrumb-content">FICTION</div></a>
+             <div class="breadcrumb-content">></div>
+             <a href="#"><div class="breadcrumb-content">TRUST</div></a>
+         </div>
+     </header>
+     <section id="product_information">
+         <div class="product-container">
+             <div class="product-content col">
+                 <div class="left l-5">
+                     <div class="main-img">
+                         <img src="/assest/image/detail/trust/trust2.jpg" alt="trust book image">
+                     </div>
+                     <div class="sub-img">
+                         <div class="item">
+                             <img src="/assest/image/detail/trust/trust.jpg" alt="trust quote">
+                         </div>
+                         <div class="item">
+                             <img src="/assest/image/detail/trust/trust3.jpg" alt="trust author">
+                         </div>
+                         <div class="item">
+                             <img src="/assest/image/detail/trust/trust4.jpg" alt="trust prize">
+                         </div>
+                     </div>
+                 </div>
+                 <div class="right l-5">
+                     <div class="title">
+                         <h1>TRUST</h1>
+                     </div>
+                     <div class="author">
+                        Hernan Diaz
+                     </div>
+                     <div class="price">
+                        <p>$16.99 <span style="text-decoration: line-through; color: red;">$28.00</span></p>
+                     </div>
+                     <a href="#rating"><div class="rate">⭐⭐⭐⭐<span> 4 </span> 27,743 ratings </div></a>
+                     <div class="disc">
+                         <p style="font-size: 18px;">Even through the roar and effervescence of the 1920s, everyone in New York has heard of Benjamin and Helen Rask. He is a legendary Wall Street tycoon; she is the brilliant daughter of eccentric aristocrats. Together, they have risen to the very top of a world of seemingly endless wealth. But the secrets around their affluence and grandeur incites gossip. Rumors about Benjamin's financial maneuvers and Helen's reclusiveness start to spread--all as a decade of excess and speculation draws to an end. At what cost have they acquired their immense fortune?
+
+                            This is the mystery at the center of a successful 1938 novel entitled Bonds, which all of New York seems to have read. But it isn't the only version.
+                            
+                            Hernan Diaz's Trust brilliantly puts the story of these characters into conversation with other accounts--and in tension with the life and perspective of a young woman bent on disentangling fact from fiction. The result is a novel that becomes more exhilarating and profound with each new layer and revelation. Provocative and propulsive, Trust engages the reader in a quest for the truth while confronting the reality-warping gravitational pull of money and how power often manipulates facts. An elegant, multifaceted epic that recovers the voices buried under the myths that justify our foundational inequality, Trust is a literary triumph with a beating heart and urgent stakes.</p>
+                     </div>
+                     <div class="genre">
+                         <p> <span style="color: rgba(59, 59, 59, 0.5);">Genre:</span> <span style="border-bottom: 1px solid #ABC4AA;">Fiction</span> , <span style="border-bottom: 1px solid #ABC4AA;">Historical Fiction</span>, <span style="border-bottom: 1px solid #ABC4AA;">Literary Fiction</span>, <span style="border-bottom: 1px solid #ABC4AA;">Historical</span>,   <span style="border-bottom: 1px solid #ABC4AA;">Mystery</span> </p> 
+                     </div>
+                     <a href="#" class="contact"><button>ADD TO CART</button></a>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section id="rating">
+         <div class="rating-container">
+             <div class="rating-content">
+                 <div class="title">
+                     Review & Comment
+                 </div>
+                 <div class="rate">⭐⭐⭐⭐<span> 4 </span> 27,743 ratings </div>
+                 <div class="dashboard">                    
+                     <div class="star">
+                         <p>5⭐</p>
+                         <div class="display">
+                             <div class="percentage_1"></div>
+                         </div>
+                         <p>28%</p>
+                     </div>
+                     <div class="star">
+                         <p>4⭐</p>
+                         <div class="display">
+                             <div class="percentage_2"></div>
+                         </div>
+                         <p>40%</p>
+                     </div>
+                     <div class="star">
+                         <p>3⭐</p>
+                         <div class="display">
+                             <div class="percentage_3"></div>
+                         </div>
+                         <p>23%</p>
+                     </div>
+                     <div class="star">
+                         <p>2⭐</p>
+                         <div class="display">
+                             <div class="percentage_4"></div>
+                         </div>
+                         <p class="append">6%</p>
+                     </div>
+                     <div class="star">
+                         <p>1⭐</p>
+                         <div class="display">
+                             <div class="percentage_5"></div>
+                         </div>
+                         <p class="append">1%</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div id="comment-container" class="comment-container">
+             <div class="comment-content">
+                 <div class="person">
+                     <div class="left">
+                         <div class="profile">
+                             <div class="img">
+                                 <img src="/assest/image/homepage/author.jpg" alt="">
+                             </div>
+                             <div class="name">Loc Truong</div>
+                             <div class="history">206 comments</div>
+                             <div class="contact">
+                                 <a href="#"><button>Contact</button></a>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="right">
+                         <div class="comment-box">
+                             <div class="comment-info">
+                                 <div class="star">⭐⭐⭐⭐⭐</div>
+                                 <div class="date">02/06/2022</div>
+                             </div>
+                             <div class="comment-content">
+                                 <p> 
+                                    "Most of us prefer to believe we are the active subjects of our victories but only the passive objects of our defeats. We triumph, but it is not really we who fail—we are ruined by forces beyond our control."
+
+I’ll admit that I had put this book aside when I first received it a month ago. The subject matter- financial markets, Wall Street tycoon, the crash of 1929- wasn’t pulling me in. But eventually, my curiosity got the better of me and I finally cracked it open three days ago and I have been immersed in it ever since. This is a book that takes time and patience. I did put it down a few times – not because I lost interest but because I needed to take a pause and absorb what I was reading. In general, I enjoy meta fiction when it is done right and Hernan Diaz takes meta fiction to a different level altogether with “Trust”.
+
+It is hard to summarise this book without giving too much away. The plot revolves around a successful financier (and his wife) who not only survived the crash of 1929 but thrived and added to their wealth through well-timed investment decisions. He attributes his success to his strong intuitive capabilities, intense research and his acute understanding of the financial world. Needless to say, reaping profits in an era wherein the economy collapsed and investors and businesses lost substantial amounts of money, does invite questions and conjecture directed toward his investment practices, even inspiring fiction based on the life and times of said person with distorted facts and whole a lot of speculation. Now how does one protect his image and manage public perception? Who is he trying to convince? – Those in his close circle? Business associates? Family members? Himself?
+
+“Trust” is a complex, layered novel divided into four parts- four distinct narrative styles in four distinct voices. This novel is composed of four intricately woven novels/segments - each presenting a different perspective on the events center to the plot - a work of fiction inspired by the main character and his wife, an incomplete draft of an autobiography written by the egotistical protagonist, a memoir written by the young woman hired by the main character as his biographer and the final segment is a part of the diary of the financier’s late wife. As the narrative progresses, and the line between fact and fiction gets blurred, which version of the events and the people involved rings true? Whose version can you trust?
+
+With its unique structure, elegant writing, interesting characters (even the immensely unlikable protagonist) and the 1920s setting, Hernan Diaz’s Trust is a sharp, compelling and creative work of fiction. The first part of the novel does not quite give the reader an idea of the complexity and the intrigue of the plot that lies ahead. The final two parts of the novel were my favorite and the most absorbing part(s) of the book. I will definitely be looking out for more from this author.
+
+“Every life is organized around a small number of events that either propel us or bring us to a grinding halt. We spend the years between these episodes benefiting or suffering from their consequences until the arrival of the next forceful moment.”
+                                 </p>
+                             </div>
+                             <div class="status">
+                                 <i class="fa-regular fa-thumbs-up"></i> 1106 likes <i class="fa-regular fa-comment"></i> 206 comments
+                             </div>
+                             <div class="comment-emoji">
+     
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section id="footer">
+         <div class="footer-container">
+             <div class="footer-content">
+                 <div class="link">
+                     <ul>
+                         <li><i class="fa-brands fa-facebook"></i></li>
+                         <li><i class="fa-brands fa-instagram"></i></li>
+                         <li><i class="fa-brands fa-youtube"></i></li>
+                     </ul>
+                 </div>
+                 <div class="infor">
+                     <ul>
+                         <li>
+                             <a href="">
+                                 About Us
+                                 <div class="line"></div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="">
+                                 Privacy Policy
+                                 <div class="line"></div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="">
+                                 Terms
+                                 <div class="line"></div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="">
+                                 Copyright
+                                 <div class="line"></div>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="">
+                                 Contact Us
+                                 <div class="line"></div>
+                             </a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- scroll to top -->
+     <a href="#">    
+         <div class="to-top">
+                 <i class="fa fa-angle-up"></i>
+         </div>
+     </a>
+ </body>
+ </html>

@@ -1,0 +1,242 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Truong Quang Bao Loc
+    ID: s3965528
+    Acknowledgement: Acknowledge the resources that you use here.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viol</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assest/image/homepage/Viol-logo.png">
+    <link rel="stylesheet" href="/assest/style/anna.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="homepage-container">
+            <div class="homepage-content">
+                <div class="navigation">
+                    <div class="left">
+                        <img src="/assest/image/homepage/Viol.png" alt="Viol logo">
+                    </div>
+                    <div class="right">
+                        <input type="checkbox" id="on-off" class="on-off">
+                        <label for="on-off">
+                            <div class="hamburger-bar">
+                                <i class="fa-solid fa-bars"></i>
+                            </div> 
+                        </label> 
+                        <nav class="navbar">
+                            <ul>
+                                <li><a href="#product_information">BOOK</a></li>
+                                <li><a href="#rating">REVIEW</a></li>
+                                <li><a href="#comment-container">COMMENT</a></li>
+                                <li><a href="#footer">FOOTER</a></li>
+                            </ul>
+                        </nav> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumb">
+            <a href="/index.html"><div class="breadcrumb-content">HOME</div></a>
+            <div class="breadcrumb-content">></div>
+            <a href="/assest/pages/subcategory/fiction.html"><div class="breadcrumb-content">FICTION</div></a>
+            <div class="breadcrumb-content">></div>
+            <a href="#"><div class="breadcrumb-content">ANNA KARENINA</div></a>
+        </div>
+    </header>
+    <section id="product_information">
+        <div class="product-container">
+            <div class="product-content col">
+                <div class="left l-5">
+                    <div class="main-img">
+                        <img src="/assest/image/detail/anna-karenina/anna-karenina.jpg" alt="">
+                    </div>
+                    <div class="sub-img">
+                        <div class="item">
+                            <img src="/assest/image/detail/anna-karenina/anna-karenina1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/assest/image/detail/anna-karenina/anna-karenina2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/assest/image/detail//anna-karenina/anna-karenina3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="right l-5">
+                    <div class="title">
+                        <h1>Anna Karenina</h1>
+                    </div>
+                    <div class="author">
+                        Leo Tolstoy, Aylmer Maude (Translator), Louise Maude (Translator), Dieter Wellershoff (Nachwort), Bruno Goetz (Übersetzer), Lev Tolstoj, Léon Tolstoï
+                    </div>
+                    <div class="price">
+                        <p>$17.61 <span style="text-decoration: line-through; color: red;">$19.99</span></p>
+                    </div>
+                    <a href="#rating"><div class="rate">⭐⭐⭐⭐<span> 4.08 </span> 797,867 ratings </div></a>
+                    <div class="disc">
+                        <p>Acclaimed by many as the world's greatest novel, Anna Karenina provides a vast panorama of contemporary life in Russia and of humanity in general. In it Tolstoy uses his intense imaginative insight to create some of the most memorable characters in all of literature. Anna is a sophisticated woman who abandons her empty existence as the wife of Karenin and turns to Count Vronsky to fulfil her passionate nature - with tragic consequences. Levin is a reflection of Tolstoy himself, often expressing the author's own views and convictions.
+                            Throughout, Tolstoy points no moral, merely inviting us not to judge but to watch. As Rosemary Edmonds comments, 'He leaves the shifting patterns of the kaleidoscope to bring home the meaning of the brooding words following the title, 'Vengeance is mine, and I will repay.</p>
+                    </div>
+                    <div class="genre">
+                        <p> <span style="color: rgba(59, 59, 59, 0.5);">Genre:</span> <span style="border-bottom: 1px solid #ABC4AA;">Fiction</span> , <span style="border-bottom: 1px solid #ABC4AA;">Romance</span>, <span style="border-bottom: 1px solid #ABC4AA;">Novels</span>, <span style="border-bottom: 1px solid #ABC4AA;">19th century</span>,   <span style="border-bottom: 1px solid #ABC4AA;">Historical</span> </p> 
+                    </div>
+                    <a href="#" class="contact"><button>ADD TO CART</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rating">
+        <div class="rating-container">
+            <div class="rating-content">
+                <div class="title">
+                    Review & Comment
+                </div>
+                <div class="rate">⭐⭐⭐⭐<span> 4.08 </span> 797,867 ratings </div>
+                <div class="dashboard">                    
+                    <div class="star">
+                        <p>5⭐</p>
+                        <div class="display">
+                            <div class="percentage_1"></div>
+                        </div>
+                        <p>42%</p>
+                    </div>
+                    <div class="star">
+                        <p>4⭐</p>
+                        <div class="display">
+                            <div class="percentage_2"></div>
+                        </div>
+                        <p>32%</p>
+                    </div>
+                    <div class="star">
+                        <p>3⭐</p>
+                        <div class="display">
+                            <div class="percentage_3"></div>
+                        </div>
+                        <p>17%</p>
+                    </div>
+                    <div class="star">
+                        <p>2⭐</p>
+                        <div class="display">
+                            <div class="percentage_4"></div>
+                        </div>
+                        <p class="append">5%</p>
+                    </div>
+                    <div class="star">
+                        <p>1⭐</p>
+                        <div class="display">
+                            <div class="percentage_5"></div>
+                        </div>
+                        <p class="append">2%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="comment-container" class="comment-container">
+            <div class="comment-content">
+                <div class="person">
+                    <div class="left">
+                        <div class="profile">
+                            <div class="img">
+                                <img src="/assest/image/homepage/author.jpg" alt="">
+                            </div>
+                            <div class="name">Loc Truong</div>
+                            <div class="history">206 comments</div>
+                            <div class="contact">
+                                <a href="#"><button>Contact</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="comment-box">
+                            <div class="comment-info">
+                                <div class="star">⭐⭐⭐⭐⭐</div>
+                                <div class="date">02/06/2022</div>
+                            </div>
+                            <div class="comment-content">
+                                <p> 
+                                    In the beginning, reading Anna Karenin can feel a little like visiting Paris for the first time. You’ve heard a lot about the place before you go. Much of what you see from the bus you recognize from pictures and movies and books. You can’t help but think of the great writers and artists who have been here before you. You expect to like it. You want to like it. But you don’t want to feel like you have to like it. You worry a little that you won’t. But after a few days, you settle in, and you feel the immensity of the place opening up all around you. You keep having this experience of turning a corner and finding something beautiful that you hadn’t been told to expect or catching sight of something familiar from a surprising angle. You start to trust the abundance of the place, and your anxieties that someone else will have eaten everything up before your arrival relax. (Maybe that simile reveals more about me than I’d like.) <br> <br>
+    
+    My favorite discovery was the three or four chapters (out of the book’s 239) devoted to, of all things, scythe mowing—chapters that become a celebratory meditation on physical labor. When I read those chapters, I felt temporarily cured of the need to have something “happen” and became as absorbed in the reading as the mowers are absorbed in their work. Of course, the book is about Anna and Vronsky and Levin and Kitty and Dolly and poor, stupid Stepan Arkadyich. It’s about their love and courtship and friendship and pride and shame and jealousy and betrayal and forgiveness and about the instable variety of happiness and unhappiness. But it’s also about mowing the grass and arguing politics and hunting and working as a bureaucrat and raising children and dealing politely with tedious company. To put it more accurately, it’s about the way that the human mind—or, as Tolstoy sometimes says, the human soul—engages each of these experiences and tries to understand itself, the world around it, and the other souls that inhabit that world. This book is not afraid to take up any part of human life because it believes that human beings are infinitely interesting and infinitely worthy of compassion. And, what I found stirring, the book’s fearlessness extends to matters of religion. Tolstoy takes his characters seriously enough to acknowledge that they have spiritual lives that are as nuanced and mysterious as their intellectual lives and their romantic lives. I knew to expect this dimension of the book, but I could not have known how encouraging it would be to dwell in it for so long.
+    
+    In the end, this is a book about life, written by a man who is profoundly in love with life. Reading it makes me want to live.
+    
+                                </p>
+                            </div>
+                            <div class="status">
+                                <i class="fa-regular fa-thumbs-up"></i> 1106 likes <i class="fa-regular fa-comment"></i> 206 comments
+                            </div>
+                            <div class="comment-emoji">
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="link">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
+                </div>
+                <div class="infor">
+                    <ul>
+                        <li>
+                            <a href="">
+                                About Us
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Privacy Policy
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Terms
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Copyright
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Contact Us
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- scroll to top -->
+    <a href="#">    
+        <div class="to-top">
+                <i class="fa fa-angle-up"></i>
+        </div>
+    </a>
+</body>
+</html>

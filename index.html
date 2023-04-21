@@ -1,0 +1,408 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Truong Quang Bao Loc
+    ID: s3965528
+    Acknowledgement: Acknowledge the resources that you use here.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viol</title>
+    <link rel="stylesheet" href="assest/style/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assest/image/homepage/Viol-logo.png">
+</head>
+<body>
+    <main>
+        <div class="homepage-container">
+            <div class="homepage-content">
+                <div class="navigation">
+                    <div class="left">
+                        <img src="./assest/image/homepage/Viol.png" alt="Viol logo">
+                    </div>
+                    <div class="right">
+                        <input type="checkbox" id="on-off" class="on-off">
+                        <label for="on-off">
+                            <div class="hamburger-bar">
+                                <i class="fa-solid fa-bars"></i>
+                            </div> 
+                        </label> 
+                        <nav class="navbar">
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#Category">FICTION</a></li>
+                                <li><a href="#Category2">NON FICTION</a></li>
+                                <li><a href="#footer">FOOTER</a></li>
+                            </ul>
+                        </nav> 
+                    </div>
+                </div>
+            </div>
+            <div class="homepage-quote">
+                <div class="top">"Books are mirrors: </div>
+                <div class="bot">you only see in them what you already have inside you." </div>
+                <div class="bot">―Carlos Ruiz Zafón, The Shadow of the Wind</div>
+                <a href="#Category"><button>Explore Now</button></a>
+            </div>
+        </div>
+    </main>
+    <section id="Category">
+        <div class="category-container">
+            <div class="category-content">
+                <div class="category-heading">
+                    <h1>CATEGORY</h1>
+                </div>
+                <div class="cate">
+                    <div class="left col l-6 mc-6 cc-12">
+                    </div>
+                    <div class="right col l-6 mc-6 cc-12">
+                        <div class="content">
+                            <div class="title">FICTION</div>
+                            <div class="disc">
+                                <p>is a text written expressly for a work in an <span style="color: #675D50;">imagined narrative</span> that is mentioned, seen, or quoted in a tale, book, movie, or other fictional work, and which only appears in one or more fictitious works. A fictitious book could be written to give a bigger fictional work more authenticity or depth.</p>
+                            </div>
+                            <button><a href="./assest/pages/subcategory/fiction.html">Explore More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-heading">
+                    <h1>FICTION BOOKS</h1>
+                    <h2>Recommendation</h2>
+                </div>
+                <!-- first book -->
+                <div class="sub row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <img src="./assest/image/homepage/fiction-book1.jpg" alt="vera wong's unsoclicited advice for murderers book image">
+                                        <a href="/assest/pages/bookdetail/fiction/anna.html">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Anna Karenina</p>
+                                </div>
+                                <div class="price">
+                                    <p>$17.61 <span style="text-decoration: line-through; color: red;">$19.99</span></p>
+                                </div>
+                                <div class="buy">
+                                    <a href="./assest/pages//bookdetail/fiction/anna.html"><button>ADD TO CART </button></a>
+                                    <p>4.08/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second book -->
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <img src="./assest/image/homepage/fiction-book2.jpg" alt="trust image">
+                                        <a href="/assest/pages/bookdetail/fiction/trust.html">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Trust</p>
+                                </div>
+                                <div class="price">
+                                    <p>$16.99 <span style="text-decoration: line-through; color: red;">$28.00</span></p>
+                                </div>
+                                <div class="buy">
+                                    <a href="/assest/pages/bookdetail/fiction/trust.html"><button>ADD TO CART </button></a>
+                                    <p>4/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third book -->
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <a href="/assest/pages/bookdetail/fiction/sea.html">
+                                            <img src="./assest/image/homepage/fiction-book3.jpg" alt="beyond that, the sea image">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Beyond that, the sea</p>
+                                </div>
+                                <div class="price">
+                                    <p>$15.99 <span style="text-decoration: line-through; color: red;">$28.00</span></p>
+                                </div>
+                                <div class="buy">
+                                    <a href="/assest/pages/bookdetail/fiction/sea.html"><button>ADD TO CART </button></a>
+                                    <p>4/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth book -->
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                <div class="position">
+                                        <a href="/assest/pages/bookdetail/fiction/sea.html">
+                                            <img src="./assest/image/homepage/fiction-book4.jpg" alt="hello beautiful image">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Hello beautiful</p>
+                                </div>
+                                <div class="price">
+                                    <p>$13.99 <span style="text-decoration: line-through; color: red;">$15.71</span></p>
+                                </div>
+                                <div class="buy">
+                                    <a href="/assest/pages/bookdetail/fiction/sea.html"><button>ADD TO CART </button></a>
+                                    <p>4/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- textbook -->
+            <div id="Category2" class="category-content">
+                <div class="category-heading">
+                    <h1>CATEGORY</h1>
+                </div>
+                <div class="cate">
+                    <div class="left col l-6 mc-6 cc-12 nonfiction-left">
+                    </div>
+                    <div class="right col l-6 mc-6 cc-12 nonfiction-right">
+                        <div class="content">
+                            <div class="title nonfiction-title">NON FICTION</div>
+                            <div class="disc nonfiction-disc">
+                                <p> is any document or media content that attempts, in good faith, to convey information only about <span style="color: #f3deba"> the real world</span>, rather than being grounded in imagination. Non-fiction typically aims to present topics objectively based on historical, scientific, and empirical information.</p>
+                            </div>
+                            <button class="nonfiction-btn"><a href="/assest/pages/subcategory/non-fiction.html">Explore More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-heading">
+                    <h1>NON FICTION BOOKS</h1>
+                    <h2>Recommendation</h2>
+
+                </div>
+                <!-- first book -->
+                <div class="sub row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <a href="#">
+                                            <img src="./assest/image/homepage/non-fiction1.jpg" alt="poetry">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Educated</p>
+                                </div>
+                                <div class="price">
+                                    <p>$15.68</p>
+                                </div>
+                                <div class="buy">
+                                    <a href="#"><button>ADD TO CART </button></a>
+                                    <p>4.47/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second book -->
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <a href="#">
+                                            <img src="./assest/image/homepage/non-fiction2.jpg" alt="Educated book image">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Atomic Habits</p>
+                                </div>
+                                <div class="price">
+                                    <p>$12.99</p>
+                                </div>
+                                <div class="buy">
+                                    <a href="#"><button>ADD TO CART </button></a>
+                                    <p>4.38/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third book -->
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <a href="#">
+                                            <img src="./assest/image/homepage/non-fiction3.jpg" alt="Educated book image">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Rabbit's Nap</p>
+                                </div>
+                                <div class="price">
+                                    <p>$12.90 </p>
+                                </div>
+                                <div class="buy">
+                                    <a href="#"><button>ADD TO CART </button></a>
+                                    <p>4.16/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth book -->
+                    <div class="col l-3 m-6 c-12">
+                        <div class="content">
+                            <div class="cate-img">
+                                <div class="cate-img-display">
+                                    <div class="position">
+                                        <a href="#">
+                                            <img src="./assest/image/homepage/non-fiction4.jpg" alt="Educated book image">
+                                            <div class="overlay-buy">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="cate-disc">
+                                <div class="title">
+                                    <p>Eleanor Park</p>
+                                </div>
+                                <div class="price">
+                                    <p>$11.72 <span style="text-decoration: line-through; color: red;">18.99</span> </p>
+                                </div>
+                                <div class="buy">
+                                    <a href="#"><button>ADD TO CART </button></a>
+                                    <p>3.96/5⭐</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>            
+        </div>
+    </section>
+    <section id="embedded">
+        <div class="reason-category">
+            <div class="reason-heading">
+                <h1>BENEFIT OF BOOKS</h1>
+            </div>
+            <div class="reason-content">   
+                <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/AUw7laSlcbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/xqMozc4K4pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="link">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
+                </div>
+                <div class="infor">
+                    <ul>
+                        <li>
+                            <a href="">
+                                About Us
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Privacy Policy
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Terms
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Copyright
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/assest/pages/contact/contact.html">
+                                Contact Us
+                                <div class="line"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- scroll to top -->
+    <a href="#">    
+        <div class="to-top">
+                <i class="fa fa-angle-up"></i>
+        </div>
+    </a>
+</body>
+</html>
