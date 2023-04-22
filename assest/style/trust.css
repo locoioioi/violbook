@@ -48,7 +48,7 @@ html {
     height: 100px;
 }   
 .navigation .left:hover img {
-    background: url('/assest/image/homepage/butterfly.png');
+    background: url('../image/homepage/butterfly.png');
     height: 100px;
     background-size: cover;
     transition: 1s;

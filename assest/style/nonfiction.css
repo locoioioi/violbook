@@ -60,7 +60,7 @@ html {
     height: 100px;
 }   
 .navigation .left:hover img {
-    background: url('/assest/image/homepage/butterfly.png');
+    background: url('../../assest/image/homepage/butterfly.png');
     height: 100px;
     background-size: cover;
     transition: 1s;
@@ -106,7 +106,7 @@ html {
 }
 /* banner */
 .banner-container {
-    background: url('/assest/image/subcategory/non-fiction/nonfiction-banner.png') no-repeat;
+    background: url('../image/subcategory/non-fiction/nonfiction-banner.png') no-repeat;
     height: 650px;
     margin: 0;
     padding: 0;
@@ -194,12 +194,7 @@ html {
     display: flex;
     align-items: center;
 }
-.cate .left {
-    display: flex;
-    background: url('/assest/image/homepage/fiction.jpg');
-    background-size: cover;
-    height: 500px;
-}
+
 .cate .right {
     display: flex;
     align-items: center;
@@ -351,7 +346,7 @@ html {
 
 /*text book */
 .cate .nonfiction-left {
-    background: url('/assest/image/homepage/non-fiction.jpg') no-repeat;
+    background: url('../image/subcategory/non-fiction') no-repeat;
     background-size: cover;
     
 }
@@ -506,7 +501,7 @@ html {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     /* banner resize */
     .banner-container {
-        background: url('/assest/image/subcategory/non-fiction/nonfiction-banner-mb.png');
+        background: url('../image/subcategory/non-fiction/nonfiction-banner-mb.png');
         height: 500px;
         background-size: cover;
         background-position: center;
@@ -565,7 +560,7 @@ html {
     }
     /* banner */
     .banner-container {
-        background: url('/assest/image/subcategory/nonfiction-banner-mb.png');
+        background: url('../image/subcategory/non-fiction/nonfiction-banner-mb.png');
         height: 500px;
         background-size: cover;
         background-position: center;

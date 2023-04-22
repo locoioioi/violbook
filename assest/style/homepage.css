@@ -40,7 +40,7 @@ html {
     max-width: 1600px;
     margin: 0 auto;
     height: 605px;
-    background-image: url("/assest/image/homepage/wallpaper.jpg");
+    background-image: url("../image/homepage/wallpaper.jpg");
     background-size: cover;
     border-bottom: 2px solid var(--green);
     background-position: center;
@@ -64,7 +64,7 @@ html {
     height: 100px;
 }   
 .navigation .left:hover img {
-    background: url('/assest/image/homepage/butterfly.png');
+    background: url('../image/homepage/butterfly.png');
     height: 100px;
     background-size: cover;
     transition: 1s;
@@ -197,7 +197,7 @@ html {
 }
 .cate .left {
     display: flex;
-    background: url('/assest/image/homepage/fiction.jpg');
+    background: url('../image/homepage/fiction.jpg');
     background-size: cover;
     height: 500px;
     background-position: center;
@@ -353,7 +353,7 @@ html {
 
 /*text book */
 .cate .nonfiction-left {
-    background: url('/assest/image/homepage/non-fiction.jpg') no-repeat;
+    background: url('../image/homepage/non-fiction.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
